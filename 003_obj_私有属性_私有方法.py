@@ -1,10 +1,5 @@
 class User:
 
-    def __init__(self, name, pwd):
-        self.name = name
-        self.__pwd = pwd
-
-
     def get_pwd(self):
         print(self.__dict__)  # 为什么可以，无论是外部存放属性的时候，都是基于，_类名__属性名 : value 这样的方式存储的。
         return self.__pwd
