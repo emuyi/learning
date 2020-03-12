@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d64f3a8d-1f2a-4e18-95b8-d1c9f3225a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TC_FUNC_0001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC_FUNC_0002.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC_FUNC_0003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC_FUNC_0004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC_FUNC_0005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cases.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d006_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d007_context_manager_else.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d008_metaclass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005_fluent_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/005_fluent_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TC_FUNC_0001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TC_FUNC_0002.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TC_FUNC_0003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TC_FUNC_0004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TC_FUNC_0005.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.d006_generator">
+  <component name="RunManager" selected="Python.d008_metaclass">
     <configuration name="004_obj_双下划线方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,8 +122,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="d008_metaclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d008_metaclass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d008_metaclass" />
         <item itemvalue="Python.d006_generator" />
         <item itemvalue="Python.005_fluent_python" />
         <item itemvalue="Python.004_obj_双下划线方法" />
@@ -153,6 +175,10 @@
       <workItem from="1574862492605" duration="14000" />
       <workItem from="1575555629292" duration="2391000" />
       <workItem from="1575990813334" duration="10000" />
+      <workItem from="1577607621695" duration="1670000" />
+      <workItem from="1577712050817" duration="25000" />
+      <workItem from="1583928821100" duration="4702000" />
+      <workItem from="1584020742351" duration="2861000" />
     </task>
     <servers />
   </component>
@@ -173,6 +199,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/py_learning$d008_metaclass.coverage" NAME="d008_metaclass Coverage Results" MODIFIED="1584023278581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_learning$d006_generator.coverage" NAME="d006_generator Coverage Results" MODIFIED="1575558026954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
